@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Sunny 🌞
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern weather application that provides real-time weather information for any city worldwide. Built with React.js and powered by the OpenWeatherMap API.
 
-## Available Scripts
+## 🚀 Features
+
+✅ Search for any city's current weather  
+✅ Displays:
+- City name
+- Weather condition (e.g., Clear, Clouds, Rain)
+- Temperature in °C  
+✅ Clean, minimalistic design  
+✅ Fully responsive  
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (Latest LTS version recommended)
+- npm (comes with Node.js)
+- OpenWeatherMap API key (free tier available)
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd sunny
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up OpenWeatherMap API:
+- Sign up at [OpenWeatherMap](https://openweathermap.org/api)
+- Generate your free API key
+- In `src/components/Weather.js`, replace:
+```javascript
+const API_KEY = "YOUR_API_KEY";
+```
+
+4. Start the development server:
+```bash
+npm start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React.js  
+- **API:** OpenWeatherMap API  
+- **Styling:** CSS  
+
+## 🏗️ Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
-
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is optimized for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+sunny/
+├── public/          # Static files
+├── src/            # Source files
+│   ├── components/ # React components
+│       └── Weather.js
+├── node_modules/   # Dependencies
+└── package.json    # Project configuration
+```
 
-### `npm run eject`
+## 👥 Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- BinuriManodya - Initial work
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
